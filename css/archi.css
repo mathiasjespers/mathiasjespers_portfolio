@@ -1,0 +1,48 @@
+html  {
+  background-color: whitesmoke;
+}
+
+header  {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+header  h1  {
+  font-size: 3rem;
+  margin-left: 10vw;
+}
+
+.glider-contain {
+  height: 85vh;
+}
+
+.glider {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.page img {
+  height: 75vh;
+  max-width: 80vw;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots {
+  height: 5vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .page img {
+    max-height: 75vh;
+    max-width: 80vw;
+    width: auto;
+    height: auto;
+  }
+}
