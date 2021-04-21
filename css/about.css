@@ -207,7 +207,12 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 10vw;
-  margin-right: 10vw;
+}
+
+.about-text-text  {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
 }
 
 .about-text img {
@@ -225,8 +230,9 @@ a {
 }
 
 .media-image  {
-  display: grid;
-  place-items: center;
+  background: url("../img/profile.png") center center no-repeat;
+  max-height: 720px;
+  min-height: 50vh;
 }
 
 @media screen and (max-width: 600px) {
