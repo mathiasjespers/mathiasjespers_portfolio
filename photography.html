@@ -15,7 +15,6 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" type="text/css" href="css/glider.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/photo.css">
@@ -93,50 +92,26 @@
       ~ Henri Cartier-Bresson
     </p>
   </section>
-  <section data-scroll-section data-scroll>
-    <h2>Browse by category</h2>
-  </section>
-  <section data-scroll-section data-scroll class="categories glider-contain">
-    <div data-scroll class="catImages glider">
-      <div data-scroll class="natureCat cat">
-        <img src="img/categories/nature.jpg" alt="nature category">
-        <a href="#" class="wavy"><span data-content="NATURE">Nature</span></a>
+  <section class="projects" data-scroll-section data-scroll>
+    <div class="project-links">
+      <h2>Browse by Project</h2>
+      <div>
+        <a href="seaside.html" id="link1" class="link-through"><span class="line-through" data-content="SEASIDE">SEASIDE</span></a>
       </div>
-      <div data-scroll class="architectureCat cat">
-        <img src="img/categories/archi.jpg" alt="architecture category">
-        <a href="architecture.html" class="wavy"><span data-content="ARCHITECTURE">Architecture</span></a>
+      <div>
+        <a href="fagnes.html" id="link2" class="link-through"><span class="line-through blacked" data-content="FAGNES">FAGNES</span></a>
       </div>
-      <div data-scroll class="peopleCat cat">
-        <img src="img/categories/people.jpg" alt="people category">
-        <a href="#" class="wavy"><span data-content="PEOPLE">People</span></a>
+      <div>
+        <a href="#" id="link3" class="link-through"><span class="line-through" data-content="EU CAPITAL">EU CAPITAL</span></a>
       </div>
-      <div data-scroll class="peopleCat cat">
-        <img src="img/categories/people.jpg" alt="people category">
-        <a href="#" class="wavy"><span data-content="PEOPLE">People</span></a>
+      <div>
+        <a href="#" id="link4" class="link-through"><span class="line-through blacked" data-content="COVERS">COVERS</span></a>
+      </div>
+      <div>
+        <a href="#" id="link5" class="link-through"><span class="line-through" data-content="URBAN B&W">URBAN B&W</span></a>
       </div>
     </div>
-  </section>
-  <section data-scroll-section data-scroll>
-    <h2>Or by project</h2>
-  </section>
-  <section data-scroll data-scroll-section class="glider-contain projects">
-    <div data-scroll class="catImages glider2">
-      <div data-scroll class="fagnes cat">
-        <img src="img/projects/fagnes.jpg" alt="nature category">
-        <a href="fagnes.html" class="wavy"><span data-content="FAGNES">Fagnes</span></a>
-      </div>
-      <div data-scroll class="sea cat">
-        <img src="img/projects/sea.jpg" alt="architecture category">
-        <a href="#" class="wavy"><span data-content="SEASIDE">Seaside</span></a>
-      </div>
-      <div data-scroll class="peopleCat cat">
-        <img src="img/projects/europe.jpg" alt="people category">
-        <a href="#" class="wavy"><span data-content="EUROPE">Europe</span></a>
-      </div>
-      <div data-scroll class="peopleCat cat">
-        <img src="img/categories/people.jpg" alt="people category">
-        <a href="#" class="wavy"><span data-content="PEOPLE">People</span></a>
-      </div>
+    <div class="project-images">
     </div>
   </section>
   <footer data-scroll-section data-scroll class="test">
@@ -145,7 +120,6 @@
 </div>
 
 <!-- js -->
-<script src="js/glider.js"></script>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>

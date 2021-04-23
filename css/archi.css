@@ -4,6 +4,12 @@ html  {
   background-color: whitesmoke;
 }
 
+.arrow  {
+  height: 100px;
+  width: 100px;
+  transform: translate(0, 10vh);
+}
+
 header  {
   height: 10vh;
   width: 100%;
@@ -79,6 +85,10 @@ header a:hover {
     height: auto;
   }
 
+  .arrow  {
+    display: none;
+  }
+
   .horizontal-page img  {
     max-height: 75vh;
     max-width: 80vw;
@@ -90,5 +100,9 @@ header a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  header a {
+    transform: translate(10px);
   }
 }

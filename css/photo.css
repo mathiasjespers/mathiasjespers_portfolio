@@ -148,7 +148,7 @@ h2  {
   font-size: 3rem;
   margin-left: 10vw;
   margin-top: 5vh;
-  margin-bottom: 0;
+  margin-bottom: 3vh;
   padding-bottom: 0;
 }
 
@@ -302,15 +302,73 @@ h2  {
   cursor: none;
 }
 
-/* small screens */
-@media screen and (max-width: 600px) {
+/* projects */
+.projects {
+  position: relative;
+  width: 100vw;
+}
 
-  .glider-track {
-    scrollbar-width: none;
+.project-links {
+  display: block;
+}
+.project-links  a {
+  font-size: 7rem;
+  margin-left: 10vw;
+  margin-bottom: -1.5rem;
+}
+
+.blacked {
+  color: #1e7ba4 !important;
+}
+
+.project-images {
+  margin-right: 5vh;
+  position: absolute;
+  height: 900px;
+  width: 600px;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: -10;
+}
+
+.img1 {
+  background: url("../img/projects/sea.jpg") center center no-repeat;
+  background-size: contain;
+}
+
+.img2 {
+  background: url("../img/projects/fagnes.jpg") center center no-repeat;
+  background-size: contain;
+}
+
+.img3 {
+  background: url("../img/projects/europe.jpg") center center no-repeat;
+  background-size: contain;
+}
+
+.img4 {
+  background: url("../img/projects/europe.jpg") center center no-repeat;
+  background-size: contain;
+}
+
+.img5 {
+  background: url("../img/projects/urban.jpg") center center no-repeat;
+  background-size: contain;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .architecture {
+    display: flex;
+    height: auto;
   }
 
   h1  {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   h2  {
@@ -319,13 +377,6 @@ h2  {
 
   .cat  a  {
     font-size: large;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .architecture {
-    display: flex;
-    height: auto;
   }
 
   .images-container {
@@ -342,5 +393,14 @@ h2  {
   .quote p {
     font-size: 1.5rem;
     padding-top: 1.5rem;
+  }
+
+  .project-links  a {
+    font-size: 2rem;
+    margin-left: 10vw;
+  }
+
+  .project-images {
+    display: none;
   }
 }

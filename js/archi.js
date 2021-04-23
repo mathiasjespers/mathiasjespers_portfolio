@@ -8,7 +8,12 @@ let glider = new Glider(document.querySelector('.glider'), {
       rewind: false,
       draggable: true,
       dragVelocity: 2,
-      dots: ".dots"
+      dots: ".dots",
+      slidesToScroll: 2,
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
     }
   },
     {
@@ -18,7 +23,12 @@ let glider = new Glider(document.querySelector('.glider'), {
         rewind: false,
         draggable: true,
         dragVelocity: 2,
-        dots: ".dots"
+        dots: ".dots",
+        slidesToScroll: 1,
+        arrows: {
+          prev: '.glider-prev',
+          next: '.glider-next'
+        }
       }
     },
     {
@@ -28,8 +38,13 @@ let glider = new Glider(document.querySelector('.glider'), {
         rewind: false,
         draggable: true,
         dragVelocity: 2,
-        dots: ".dots"
-      }
+        dots: ".dots",
+        slidesToScroll: 1,
+        arrows: {
+          prev: '.glider-prev',
+          next: '.glider-next'
+        }
+      },
     }]
 });
 
