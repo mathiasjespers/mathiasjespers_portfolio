@@ -50,4 +50,9 @@ let glider = new Glider(document.querySelector('.glider'), {
 
 Promise.all([preloadImages('img')]).then(() => {
   glider.refresh(true);
+
+  setTimeout(function() {
+    document.body.classList.remove('loading');
+  }, 500);
+
 });

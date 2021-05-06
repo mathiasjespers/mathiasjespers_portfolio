@@ -20,6 +20,15 @@ html  {
     max-width: 80vw;
     height: auto;
   }
+
+  .hamburger-menu {
+    top: 1rem;
+    right: 1rem;
+  }
+
+  html {
+    background: url("../img/bg1.jpg") no-repeat center bottom fixed;
+  }
 }
 
 /* hamburger menu */
@@ -148,4 +157,8 @@ button,
 select,
 a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.hidden {
+  display: none;
 }

@@ -61,16 +61,22 @@ header a:hover {
 .horizontal-b  {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .horizontal-a {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .horizontal-page img {
   height: 75vh;
   max-width: 80vw;
+}
+
+.horizontal-page .sixteenbynine {
+  height: 60vh;
 }
 
 .dots {

@@ -247,11 +247,11 @@ a {
   }
 
   .about-text p {
-    font-size: large;
+    font-size: x-large;
   }
 
   .about-text ul{
-    font-size: medium;
+    font-size: larger;
   }
 
   .media-image  {
@@ -266,6 +266,13 @@ a {
     padding-top: 1rem;
   }
 
-  #firstP {
+  .media-image  {
+    min-height: 30vh;
+    margin-top: 15vh;
+    transform: translate(0, -25%);
+  }
+
+  .contact-link {
+    font-size: x-large;
   }
 }
