@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>M&M's Recepten</title>
+  <link rel="stylesheet" href="">
+</head>
+<body class="loading">
+<script src="js/recipes.js"></script>
+  <section id="app">
+
+  </section>
+  <section id="recept">
+
+  </section>
+  <section>
+    <form action="http://127.0.0.1:5000/recipes" method="post">
+      <select id="categorie" name="categorie">
+        <option value="1">Apperitiefje</option>
+        <option value="2">Voorgerecht</option>
+        <option value="3">Hoofdgerecht</option>
+        <option value="4">Nagerecht</option>
+      </select>
+      <input type="text" id="titel" name="titel" placeholder="Titel">
+      <input type="text" id="ondertitel" name="ondertitel" placeholder="Ondertitel">
+      <input type="number" id="eters" name="eters" placeholder="4">
+      <textarea name="ingredienten" placeholder="Ingrediënten"></textarea>
+      <textarea name="recept" placeholder="recept"></textarea>
+      <button type="submit">recept Toevoegen</button>
+    </form>
+  </section>
+</body>
+</html>

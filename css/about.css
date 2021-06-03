@@ -120,11 +120,6 @@ a:visited {
   background-color: #222222;
 }
 
-.hidden .mathias  {
-  display: none;
-  height: 0;
-  transition: height 350ms ease-in-out;
-}
 
 /* hide blue bg on mobile tap */
 input,
@@ -274,5 +269,10 @@ a {
 
   .contact-link {
     font-size: x-large;
+  }
+
+  .hamburger-menu {
+    top: 1rem;
+    right: 1rem;
   }
 }
